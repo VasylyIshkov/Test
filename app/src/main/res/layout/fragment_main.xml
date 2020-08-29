@@ -44,7 +44,7 @@
             android:id="@+id/tb_ph_flag"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="10"
             android:src="@mipmap/tb_ph_flag_foreground" />
 
         <LinearLayout
@@ -78,14 +78,16 @@
 
     </LinearLayout>
 
-    <ImageView
+
+    <TextView
         android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_gravity="center_horizontal"
-        android:src="@mipmap/tb_ph_date_foreground"
+        android:background="@mipmap/tb_ph_date_foreground">
 
-        />
+    </TextView>
 
 
 </FrameLayout>
